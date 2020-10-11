@@ -1,0 +1,27 @@
+---
+title: My first Shiny apps
+author: David Ross
+date: "2020-10-10 14:19:38"
+slug: my-first-shiny-apps
+categories: []
+tags: []
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>This summer I worked at the <a href="https://oregon.providence.org/our-services/e/earle-a-chiles-research-institute/">Earle A. Chiles Research Institute</a> doing bioinformatics analyses for a cancer immunology researcher. To allow the researcher to perform similar analyses in the future, without me present or knowing <a href="https://www.r-project.org/about.html">R</a>, I created a couple <a href="https://shiny.rstudio.com/">Shiny</a> apps. These apps are a web interface to interactively explore data of different types. I have demos <a href="https://daveross.shinyapps.io/ihc-viewer/">here</a> and <a href="https://daveross.shinyapps.io/tcrr/">here</a>, and more background information below.</p>
+<div id="ihc-viewer" class="section level2">
+<h2><a href="https://daveross.shinyapps.io/ihc-viewer/">IHC viewer</a></h2>
+<p>Immunohistochemistry of tumor samples can show the spatial arrangement of different classes of cells in the tumor immune microenvironment. Using software from <a href="https://www.akoyabio.com/phenoptics/software/inform-tissue-finder/">Akoya Biosciences</a>, a scientist in the lab processed these images and assigned coordinates and phenotypes to several thousand cells in multiple regions of interest. I created an interface to view the arrangement of cells and calculate various statistics, primarily with the R package <a href="http://spatstat.org/"><code>spatstat</code></a>.</p>
+<p><img src="/post/2020-10-10-my-first-shiny-apps_files/ihc.png" width="600" /></p>
+</div>
+<div id="tcrr" class="section level2">
+<h2><a href="https://daveross.shinyapps.io/tcrr/">TCRR</a></h2>
+<p>Using data from an assay developed by <a href="https://www.adaptivebiotech.com/products-services/immunoseq/">Adaptive Biotechnologies</a>, this app draws a <a href="http://circos.ca/">circos</a> plot showing shared sequences in different cell populations.</p>
+<p><img src="/post/2020-10-10-my-first-shiny-apps_files/circos.png" width="600" /></p>
+</div>
+<div id="future-development" class="section level2">
+<h2>Future development</h2>
+<p>Both of these apps were created specifically for the analyses at hand for the lab I worked in this summer. I hope to continue development of the apps in the future and share the results with the open source bioinformatics community.</p>
+</div>

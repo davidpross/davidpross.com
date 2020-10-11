@@ -1,0 +1,12 @@
+---
+title: New website
+author: David Ross
+date: "2020-10-10 13:20:13"
+slug: new-website
+categories: []
+tags: []
+---
+
+I created my first blog in 2002 to document my [cross-country bicycling trip](https://www.adventurecycling.org/routes-and-maps/adventure-cycling-route-network/transamerica-trail/) using the [MovableType](https://movabletype.com/) platform, which I've discovered is still around. This edition of my home on the web has a new [domain name](https://davidpross.com) and is built with [Hugo](https://gohugo.io/) and [blogdown](https://bookdown.org/yihui/blogdown/), with hosting by [Netlify](https://www.netlify.com/).
+
+To begin, I am posting my [resume](https://davidpross.com/resume) as I enter the world of bioinformatics.
