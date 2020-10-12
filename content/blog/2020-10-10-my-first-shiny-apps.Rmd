@@ -7,7 +7,7 @@ categories: []
 tags: []
 ---
 
-This summer I worked at the [Earle A. Chiles Research Institute](https://oregon.providence.org/our-services/e/earle-a-chiles-research-institute/) doing bioinformatics analyses for a cancer immunology researcher. To allow the researcher to perform similar analyses in the future, without me present or knowing [R](https://www.r-project.org/about.html), I created a couple [Shiny](https://shiny.rstudio.com/) apps. These apps are a web interface to interactively explore data of different types. I have demos [here](https://daveross.shinyapps.io/ihc-viewer/) and [here](https://daveross.shinyapps.io/tcrr/), and more background information below.
+This summer I worked at the [Earle A. Chiles Research Institute](https://oregon.providence.org/our-services/e/earle-a-chiles-research-institute/) doing bioinformatics analyses for a cancer immunology researcher. To allow the researcher, without my presence or his knowing [R](https://www.r-project.org/about.html), to perform similar analyses in the future, I created a couple of  [Shiny](https://shiny.rstudio.com/) apps. These apps are a web interface to interactively explore data. I have demos [here](https://daveross.shinyapps.io/ihc-viewer/) and [here](https://daveross.shinyapps.io/tcrr/), and more background information below.
 
 ## [IHC viewer](https://daveross.shinyapps.io/ihc-viewer/)
 
@@ -24,4 +24,4 @@ Using data from an assay developed by [Adaptive Biotechnologies](https://www.ada
 
 ## Future development
 
-Both of these apps were created specifically for the analyses at hand for the lab I worked in this summer. I hope to continue development of the apps in the future and share the results with the open source bioinformatics community.
+Both of these apps were created specifically for the analyses at hand, for the lab I worked in this summer. I hope to continue development of the apps in the future and share the results with the open source bioinformatics community.
