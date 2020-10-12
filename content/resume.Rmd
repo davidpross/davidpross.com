@@ -17,7 +17,7 @@ Earle A. Chiles Research Institute -- Portland, Oregon
 
 - Bioinformatics analyses to support cancer immunology research.
 - Used `Seurat` R package to analyze scRNA-seq data from TILs.
-- Created [two interactive apps](https://davidpross.com/2020/10/10/my-first-shiny-apps/) for data visualization and analysis of multiplex IHC and TCR-seq data using `shiny` R package.
+- Created [two interactive apps](../blog/my-first-shiny-apps) for data visualization and analysis of multiplex IHC and TCR-seq data using `shiny` R package.
 
 ## Independent Software Developer 2004 - 2014
 
