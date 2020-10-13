@@ -7,7 +7,7 @@ categories: []
 tags: []
 ---
 
-This summer I worked at the [Earle A. Chiles Research Institute](https://oregon.providence.org/our-services/e/earle-a-chiles-research-institute/) doing bioinformatics analyses for a cancer immunology researcher. To allow the researcher, without my presence or his knowing [R](https://www.r-project.org/about.html), to perform similar analyses in the future, I created a couple of  [Shiny](https://shiny.rstudio.com/) apps. These apps are a web interface to interactively explore data. I have demos [here](https://daveross.shinyapps.io/ihc-viewer/) and [here](https://daveross.shinyapps.io/tcrr/), and more background information below.
+This summer I worked at the [Earle A. Chiles Research Institute](https://oregon.providence.org/our-services/e/earle-a-chiles-research-institute/) doing bioinformatics analyses for a cancer immunology researcher. To allow the researcher to independently perform similar analyses in the future, I created a couple of  [Shiny](https://shiny.rstudio.com/) apps. These apps are a web interface to interactively explore data. I have demos [here](https://daveross.shinyapps.io/ihc-viewer/) and [here](https://daveross.shinyapps.io/tcrr/), and more background information below.
 
 ## [IHC viewer](https://daveross.shinyapps.io/ihc-viewer/)
 
