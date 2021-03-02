@@ -1,23 +1,30 @@
 ---
 title: Resume
 author: David Ross
-date: '2020-10-10'
+date: '2021-03-01'
 slug: resume
 categories: []
 tags: []
 ---
 
-Skilled software developer interested in data visualization, exploratory data analysis and using computational tools to probe biological questions. I am pursuing a master’s degree in bioinformatics and computational biomedicine and **currently seeking an internship for winter and spring terms 2021**.
+Skilled software developer interested in data visualization, exploratory data analysis, and using computational tools to probe biological questions. I am pursuing a master’s degree in bioinformatics and computational biomedicine with **anticipated graduation in June 2021**.
 
 # Professional Experience
+
+## Biostatistics Intern 2021
+
+NanoString Technologies Inc. -- Remote work
+
+- Developing interactive visualization tool for exploratory data analysis of spatial transcriptomics data.
+- Assisting with development of new data analysis pipeline.
 
 ## Bioinformatics Scientist Intern 2020
 
 Earle A. Chiles Research Institute -- Portland, Oregon
 
 - Bioinformatics analyses to support cancer immunology research.
-- Used `Seurat` R package to analyze scRNA-seq data from TILs.
-- Created [two interactive apps](../blog/my-first-shiny-apps) for data visualization and analysis of multiplex IHC and TCR-seq data using `shiny` R package.
+- Used `Seurat` R package to analyze scRNA-seq data from tumor-infiltrating lymphocytes.
+- Created [two interactive apps](../blog/my-first-shiny-apps) for data visualization and analysis of multiplex immunohistochemistry and TCR-seq data using `shiny` R package.
 
 ## Independent Software Developer 2004 - 2014
 
@@ -36,34 +43,28 @@ American Management Systems -- Fairfax, Virginia
 - C++ application server and Smalltalk GUI development.
 - Complex data manipulation with SQL on various relational database platforms.
 
-## Programmer Intern 1994
-
-Chemunex -- Paris, France
-
-- Developed software to manipulate a robot arm operating in tandem with a flow cytomer for a French applied biotechnology company.
-
 # Education
 
 ## Master of Science, Bioinformatics 2019 - present
 
 Oregon Health & Science University -- Portland, Oregon
 
-- Anticipated graduation in June 2021.
-- Courses include Statistics, Machine Learning, Bioinformatics Algorithms, Computational Genetics.
-- Current GPA 3.96
+- Major: Bioinformatics and computational biomedicine
+- Related coursework: Statistics, Machine Learning, Bioinformatics Algorithms, Computational Genetics
+- Current GPA: 3.97
 
 ## Post-Baccalaureate, Biology 2018 - 2019
 
 Portland State University -- Portland, Oregon
 
-- Courses included Genetics, Molecular Biology, Cell Biology, Virology and Cancer Biology.
-- GPA 4.0
+- Related coursework: Genetics, Molecular Biology, Cell Biology, Virology, Cancer Biology
+- GPA: 4.0
 
 ## Massive Open Online Courses 2016 - 2018
 
 MITx -- edx.org
 
-- Courses included Chemistry, Biology, Differential Equations and Data Science.
+- Related coursework: Chemistry, Biology, Differential Equations, Data Science
 
 ## Bachelor of Arts, Economics 1993 - 1998
 
@@ -73,4 +74,12 @@ Davidson College -- Davidson, North Carolina
 
 # Skills
 
-Adept at learning new programming languages and technologies. Intermediate skills in R and Python. Also familiar with bash, SQL. Have used many other languages in the past including C++, Wolfram Language, Objective-C, Smalltalk.
+## Programming 
+-	Adept at learning new programming languages and technologies.
+-	Skilled R developer, including building interactive web apps with Shiny.
+-	Familiar with bash, Python, and SQL.
+-	Have used many other languages in the past including C++, Wolfram Language, Objective-C, Smalltalk.
+
+## Languages
+-	English
+-	Conversational French and Spanish.
