@@ -16,12 +16,15 @@ menu:
     - name: Home
       url: /
       weight: 1
+    - name: About
+      url: /about/
+      weight: 2
     - name: Blog
       url: /blog/
-      weight: 2
+      weight: 3
     - name: Resume
       url: /resume
-      weight: 3
+      weight: 4
 #    - name: Categories
 #      url: /categories/
 #      weight: 5

@@ -1,0 +1,77 @@
+---
+title: Using .GRP symbol with R data.table package
+output:
+  html_document:
+    code_folding: hide
+author: David Ross
+date: '2021-05-12'
+slug: using-grp-symbol-with-r-data-table-package
+categories: []
+tags:
+  - R
+---
+
+I am a big fan of the [data.table](https://rdatatable.gitlab.io/data.table/) package in R for data manipulation. I use the csv reader function `fread` all the time and enjoy the concise syntax for many basic queries of the data. There are some [special symbols](https://rdatatable.gitlab.io/data.table/reference/special-symbols.html) associated with the package that I've used before, especially `.N` and `.SD`. However, I had never used the `.GRP` symbol until I faced a particular query for a class assignment recently. I am documenting how I used it in this post.
+
+The data come from the [pnwflights14](https://github.com/ismayc/pnwflights14) package which is modeled upon the [nycflights13](https://github.com/tidyverse/nycflights13) package.
+
+```{r}
+library(data.table)
+data("flights", package = "pnwflights14")
+setDT(flights)
+# just analyze flights originating from Portland
+flights <- flights[origin == "PDX"]
+```
+
+The analysis question is: by month, what new routes were added or removed? Only the `dest` and `month` columns are necessary to answer this query. The special symbol `.GRP` is used with the data.table syntax as an index for the current group. So, I grouped the data by month and the `.GRP` symbol now aligns with the month of the current group which allows for comparison with the previous month.
+
+```{r}
+# flights dropped from previous month
+dropped <- flights[order(month), .(dropped = setdiff(flights[month == .GRP - 1, dest], dest)), by = month]
+# flights added from previous month
+added <- flights[order(month), .(added = setdiff(dest, flights[month == .GRP - 1, dest])), by = month][month != 1]
+```
+
+```{r, echo=FALSE}
+dropped <- dropped[, .(dropped = paste(c(.SD$dropped), collapse = ", ")), by=month]
+added <- added[, .(added = paste(c(.SD$added), collapse = ", ")), by=month]
+routes <- data.table(month = 2:12)
+routes <- merge(routes, dropped, on = "month", all = TRUE)
+routes <- merge(routes, added, on = "month", all = TRUE)
+routes[, month := month.abb[month]]
+```
+
+I used the excellent [gt](https://gt.rstudio.com/) package for creating a formatted table.
+
+```{r, warning=FALSE, echo=FALSE}
+library(magrittr)
+library(gt)
+routes %>% 
+ gt() %>% 
+  tab_header(
+    title = md("**Routes added and dropped**"),
+    subtitle = "Changes in destinations from previous month"
+  ) %>% 
+  tab_source_note(
+    source_note = "Source: pnwflights R package"
+  ) %>% 
+  tab_footnote(
+    footnote = "For flights departing PDX in the year 2014.",
+    locations = cells_title("subtitle")
+  ) %>% 
+  fmt_missing(
+    columns = 2:3
+  ) %>% 
+  cols_label(
+    month = "",
+    dropped = "Dropped",
+    added = "Added"
+  ) %>% 
+  tab_style(
+    style = list(
+      cell_fill(color = "lightcyan"),
+      "font-variant: small-caps;"
+    ),
+    locations = cells_body(columns = "month")
+  )
+```
