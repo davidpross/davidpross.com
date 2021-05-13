@@ -1,85 +1,75 @@
 ---
 title: Resume
 author: David Ross
-date: '2021-03-01'
 slug: resume
 categories: []
 tags: []
 ---
 
-Skilled software developer interested in data visualization, exploratory data analysis, and using computational tools to probe biological questions. I am pursuing a master’s degree in bioinformatics and computational biomedicine with **anticipated graduation in June 2021**.
+Pursuing a master’s degree in bioinformatics and computational biomedicine with **anticipated graduation in June 2021**. I have a strong background in programming and user interface design. I am concluding a focused multi-year educational journey to apply these skills in the biological domain. I am ready to contribute on a technical team partnering with biologists to leverage computational tools to advance biology and biomedical research.
 
-# Professional Experience
+[Download PDF version of resume](/Ross-resume.pdf)
 
-## Biostatistics Intern 2021
+## Relevant Experience
 
-NanoString Technologies Inc. -- Remote work
+### Biostatistics Intern — NanoString Technologies Inc. — Seattle, Washington — 2021
 
-- Developing interactive visualization tool for exploratory data analysis of spatial transcriptomics data.
-- Assisting with development of new data analysis pipeline.
+- Developed interactive visualization tool for exploratory data analysis of spatial transcriptomics data.
+- Contributed to development of new data analysis pipeline for technology access program.
+- Have given multiple internal presentations of the tool I developed—to senior level leadership as well as current customers—as the viewer will be an integral component of data analysis toolkit for early access collaborators using company’s forthcoming spatial molecular imager. Viewer is also being prepared for public access to showcase the data being generated with the new assay.
+- Attended industry conference announcing new spatial biology technologies.
 
-## Bioinformatics Scientist Intern 2020
+### Bioinformatics Scientist Intern — Providence Cancer Center — Portland, Oregon — 2020
 
-Earle A. Chiles Research Institute -- Portland, Oregon
+- Performed bioinformatics analyses to support cancer immunology research.
+- Used Seurat R package to analyze scRNA-seq data from tumor-infiltrating lymphocytes.
+- Created two interactive apps for data visualization and analysis of multiplex immunohistochemistry and TCR-seq data using shiny R package.
+- Created visualization for scientific journal article [published](https://pubmed.ncbi.nlm.nih.gov/33820811/) in _Cancer Immunology Research_.
 
-- Bioinformatics analyses to support cancer immunology research.
-- Used `Seurat` R package to analyze scRNA-seq data from tumor-infiltrating lymphocytes.
-- Created [two interactive apps](../blog/my-first-shiny-apps) for data visualization and analysis of multiplex immunohistochemistry and TCR-seq data using `shiny` R package.
+## Additional Experience
 
-## Independent Software Developer 2004 - 2014
-
-David Ross Software -- Portland, Oregon
+### Independent Software Developer — David Ross Software — Portland, Oregon — 2004–2014
 
 - Developer of Windows, Mac and iOS apps.
-- Created multiple apps for iOS platform including Uni Sudoku which was featured in the launch of the App Store for iPad.
-- Partnered with Vogue Knitting to create Knit Buddy iPhone app.
+- Created multiple apps for iOS platform including Uni Sudoku which was featured in the launch of the App
+Store for iPad.
+- Created the Knit Buddy iPhone app in partnership with _Vogue Knitting_.
 
-## Software Developer 1998 - 2002
-
-American Management Systems -- Fairfax, Virginia
+### Software Developer — American Management Systems — Fairfax, Virginia — 1998–2002
 
 - Developed market-leading financial management software sold to federal civilian agencies with up to 5000+ users.
-- Technical manager in charge of release specific enhancements and responsible for improving software development processes from design stages through implementation.
+- Technical manager in charge of release-specific enhancements and responsible for improving software development processes from design stages through implementation.
 - C++ application server and Smalltalk GUI development.
 - Complex data manipulation with SQL on various relational database platforms.
 
-# Education
+## Education
 
-## Master of Science, Bioinformatics 2019 - present
-
-Oregon Health & Science University -- Portland, Oregon
+### Master of Science — Oregon Health & Science University — Portland, Oregon — 2021 (Anticipated)
 
 - Major: Bioinformatics and computational biomedicine
-- Related coursework: Statistics, Machine Learning, Bioinformatics Algorithms, Computational Genetics
-- Current GPA: 3.97
+- Related coursework: Statistics, Machine Learning, Bioinformatics Algorithms, Computational Genetics, Data Visualization
 
-## Post-Baccalaureate, Biology 2018 - 2019
+### Post-Baccalaureate — Portland State University — Portland, Oregon — 2018–2019
 
-Portland State University -- Portland, Oregon
-
+- Major: Biology
 - Related coursework: Genetics, Molecular Biology, Cell Biology, Virology, Cancer Biology
-- GPA: 4.0
 
-## Massive Open Online Courses 2016 - 2018
-
-MITx -- edx.org
+### Massive Open Online Courses — edX.org — 2016–2018
 
 - Related coursework: Chemistry, Biology, Differential Equations, Data Science
 
-## Bachelor of Arts, Economics 1993 - 1998
+### Bachelor of Arts — Davidson College — Davidson, North Carolina — 1998
 
-Davidson College -- Davidson, North Carolina
+- Major: Economics
 
-- Liberal arts education.
+## Skills & Abilities
 
-# Skills
+### Programming 
+- Adept at learning new programming languages and technologies.
+- Skilled R developer, including building interactive web apps with Shiny.
+- Proficient in bash, Python, VIM, git, and SQL, as well as other common programming tools.
+- Have used many other languages in the past including C++, Wolfram Language, Objective-C, Smalltalk.
 
-## Programming 
--	Adept at learning new programming languages and technologies.
--	Skilled R developer, including building interactive web apps with Shiny.
--	Familiar with bash, Python, and SQL.
--	Have used many other languages in the past including C++, Wolfram Language, Objective-C, Smalltalk.
-
-## Languages
+### Languages
 -	English
 -	Conversational French and Spanish.
