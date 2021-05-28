@@ -21,33 +21,17 @@ Key Skills
 
 ### Biostatistics Intern — NanoString Technologies Inc. — Seattle, Washington — 2021
 
-- Developed interactive visualization tool for exploratory data analysis of spatial transcriptomics data.
-- Contributed to development of new data analysis pipeline for technology access program.
-- Have given multiple internal presentations of the tool I developed—to senior level leadership as well as current customers—as the viewer will be an integral component of data analysis toolkit for early access collaborators using company’s forthcoming spatial molecular imager. Viewer is also being prepared for public access to showcase the data being generated with the new assay.
-- Attended industry conference announcing new spatial biology technologies.
+-	Developed interactive visualization tool for exploratory data analysis of spatial transcriptomics data.
+-	Contributed to development of new data analysis pipeline for technology access program.
+-	Presented interactive visualization tool to senior leadership as well as current customers.
+-	Selected to attend industry conference announcing new spatial biology technologies.
 
 ### Bioinformatics Scientist Intern — Providence Cancer Center — Portland, Oregon — 2020
 
 - Performed bioinformatics analyses to support cancer immunology research.
 - Used Seurat R package to analyze scRNA-seq data from tumor-infiltrating lymphocytes.
-- Created two interactive apps for data visualization and analysis of multiplex immunohistochemistry and TCR-seq data using shiny R package.
+- Created two interactive apps for data visualization and analysis of multiplex immunohistochemistry and TCR-seq data using R shiny package.
 - Created visualization for scientific journal article [published](https://pubmed.ncbi.nlm.nih.gov/33820811/) in _Cancer Immunology Research_.
-
-## Additional Experience
-
-### Independent Software Developer — David Ross Software — Portland, Oregon — 2004–2014
-
-- Developer of Windows, Mac and iOS apps.
-- Created multiple apps for iOS platform including Uni Sudoku which was featured in the launch of the App
-Store for iPad.
-- Created the Knit Buddy iPhone app in partnership with _Vogue Knitting_.
-
-### Software Developer — American Management Systems — Fairfax, Virginia — 1998–2002
-
-- Developed market-leading financial management software sold to federal civilian agencies with up to 5000+ users.
-- Technical manager in charge of release-specific enhancements and responsible for improving software development processes from design stages through implementation.
-- C++ application server and Smalltalk GUI development.
-- Complex data manipulation with SQL on various relational database platforms.
 
 ## Education
 
@@ -68,3 +52,20 @@ Store for iPad.
 ### Bachelor of Arts — Davidson College — Davidson, North Carolina — 1998
 
 - Major: Economics
+
+## Additional Experience
+
+### Independent Software Developer — David Ross Software — Portland, Oregon — 2004–2014
+
+- Developer of Windows, Mac and iOS apps.
+- Created multiple apps for iOS platform including Uni Sudoku which was featured in the launch of the App
+Store for iPad.
+- Created the Knit Buddy iPhone app in partnership with _Vogue Knitting_.
+
+### Software Developer — American Management Systems — Fairfax, Virginia — 1998–2002
+
+- Developed market-leading financial management software sold to federal civilian agencies with up to 5000+ users.
+- Technical manager in charge of release-specific enhancements and responsible for improving software development processes from design stages through implementation.
+- C++ application server and Smalltalk GUI development.
+- Complex data manipulation with SQL on various relational database platforms.
+
