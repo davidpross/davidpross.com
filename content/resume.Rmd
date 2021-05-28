@@ -6,9 +6,16 @@ categories: []
 tags: []
 ---
 
-Pursuing a master’s degree in bioinformatics and computational biomedicine with **anticipated graduation in June 2021**. I have a strong background in programming and user interface design. I am concluding a focused multi-year educational journey to apply these skills in the biological domain. I am ready to contribute on a technical team partnering with biologists to leverage computational tools to advance biology and biomedical research.
+Software developer completing a master’s degree in bioinformatics and computational biomedicine with anticipated graduation in June 2021. Strong programming skills, motivated to contribute on a technical team partnering with biologists to leverage computational tools to advance biology and biomedical research.
 
 [Download PDF version of resume](/Ross-resume.pdf)
+
+Key Skills
+--------------------------  ----------------------- ----------------------
+•	Software development      •	R                     •	Bash scripting
+•	Data visualization        •	Shiny                 •	Git version control
+•	Technical presentations	  •	Python                •	SQL
+--------------------------  ----------------------  ----------------------
 
 ## Relevant Experience
 
@@ -61,15 +68,3 @@ Store for iPad.
 ### Bachelor of Arts — Davidson College — Davidson, North Carolina — 1998
 
 - Major: Economics
-
-## Skills & Abilities
-
-### Programming 
-- Adept at learning new programming languages and technologies.
-- Skilled R developer, including building interactive web apps with Shiny.
-- Proficient in bash, Python, VIM, git, and SQL, as well as other common programming tools.
-- Have used many other languages in the past including C++, Wolfram Language, Objective-C, Smalltalk.
-
-### Languages
--	English
--	Conversational French and Spanish.
