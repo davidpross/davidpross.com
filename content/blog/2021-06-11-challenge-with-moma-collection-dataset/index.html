@@ -13,8 +13,8 @@ tags:
 
 
 <p>In the last quarter of my studies at OHSU, I’ve been taking a <a href="https://cslu.ohsu.edu/~bedricks/courses/bmi525/">data visualization class</a> and the next few posts will cover some of the visualizations I created for the class.</p>
-<p>In one of the earlier labs of the course we were introduced to the <a href="https://github.com/MuseumofModernArt/collection">dataset</a> of the MoMA artwork collection. Our first tasks were to recreate some plots in analysis of the data published at <a href="https://fivethirtyeight.com/features/a-nerds-guide-to-the-2229-paintings-at-moma/">538</a>. Then we were asked to create a new plot from the data.</p>
-<p>I chose to create a scatter plot tracking the history of additions of works of photography over the years along with whether the it was a color photograph and the dimensions of the artwork. The idea is to show the influence of technical factors on an area of art. Color was very limited in the early years of photography and the ability to create large photographic images has increased over time.</p>
+<p>In one of the earlier labs of the course we were introduced to the the <a href="https://github.com/MuseumofModernArt/collection">MoMA artwork collection dataset</a>. Our first tasks were to recreate some plots in analysis of the data published at <a href="https://fivethirtyeight.com/features/a-nerds-guide-to-the-2229-paintings-at-moma/">538</a>. Then we were asked to create a new plot from the data.</p>
+<p>I chose to create a scatter plot tracking the history of additions of works of photography over the years along with the dimensions of the artwork and whether it was a color photograph. The idea is to show the influence of technical factors on an area of art. Color was very limited in the early years of photography and the ability to create large photographic images has increased over time.</p>
 <p>The following code creates the plot shown. Whether the photograph is in color or not is determined by if the words ‘color’ or ‘pigment’ are in the Medium field.</p>
 <pre class="r"><code># read in full csv from MoMA GitHub
 dt &lt;- fread(&quot;Artworks.csv&quot;)
