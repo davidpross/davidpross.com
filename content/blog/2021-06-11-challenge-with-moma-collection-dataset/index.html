@@ -1,0 +1,38 @@
+---
+title: Challenge with MoMA collection dataset
+author: David Ross
+date: '2021-06-11'
+slug: challenge-with-moma-collection-dataset
+categories: []
+tags:
+  - R
+  - dataviz
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>In the last quarter of my studies at OHSU, I’ve been taking a <a href="https://cslu.ohsu.edu/~bedricks/courses/bmi525/">data visualization class</a> and the next few posts will cover some of the visualizations I created for the class.</p>
+<p>In one of the earlier labs of the course we were introduced to the <a href="https://github.com/MuseumofModernArt/collection">dataset</a> of the MoMA artwork collection. Our first tasks were to recreate some plots in analysis of the data published at <a href="https://fivethirtyeight.com/features/a-nerds-guide-to-the-2229-paintings-at-moma/">538</a>. Then we were asked to create a new plot from the data.</p>
+<p>I chose to create a scatter plot tracking the history of additions of works of photography over the years along with whether the it was a color photograph and the dimensions of the artwork. The idea is to show the influence of technical factors on an area of art. Color was very limited in the early years of photography and the ability to create large photographic images has increased over time.</p>
+<p>The following code creates the plot shown. Whether the photograph is in color or not is determined by if the words ‘color’ or ‘pigment’ are in the Medium field.</p>
+<pre class="r"><code># read in full csv from MoMA GitHub
+dt &lt;- fread(&quot;Artworks.csv&quot;)
+photos &lt;- dt[Classification == &quot;Photograph&quot;]
+setnames(photos, c(&quot;Height (cm)&quot;, &quot;Width (cm)&quot;, &quot;DateAcquired&quot;), c(&quot;height_cm&quot;, &quot;width_cm&quot;, &quot;yearAcquired&quot;))
+photos &lt;- na.omit(photos, cols = c(&quot;height_cm&quot;, &quot;width_cm&quot;, &quot;yearAcquired&quot;))
+photos[, area := height_cm * width_cm]
+photos[, color := grepl(&quot;color|pigment&quot;, Medium, ignore.case = TRUE)]
+
+ggplot(photos[area &lt; 185806]) +
+  geom_point(aes(x = yearAcquired, y = area, color = color),
+             alpha = 0.5, size = 3) +
+  scale_y_continuous(breaks = c(623.7, 21367.7, 91974, 150503),
+                     labels = c(&quot;A4 paper&quot;, &quot;Bus stop\nshelter ad&quot;,
+                                &quot;Wall of bedroom&quot;, &quot;Parking space&quot;)) +
+  scale_color_manual(name = &quot;&quot;, labels = c(&quot;Monochromatic&quot;, &quot;Color&quot;),
+                       values = c(&quot;gray58&quot;, &quot;#fec44f&quot;)) +
+  labs(x = &quot;Date acquired by MoMA&quot;, y = &quot;&quot;, title = &quot;Bigger and more colorful through the years&quot;, subtitle = &quot;Sizes of photographs in MoMA&#39;s collection excluding four\ngreater than 200 square feet&quot;, caption = &quot;Source: MoMA&quot;) +
+  theme_classic() +
+  theme(plot.title = element_text(face = &quot;bold&quot;))</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>

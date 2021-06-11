@@ -2,6 +2,6 @@
 title: About Me
 ---
 
-My name is David Ross and I am a master’s student in bioinformatics and computational biomedicine at Oregon Health & Science University, graduating June 2021. I am also currently a Biostatistics Intern at NanoString Technologies, Inc. Prior to pursuing a master’s, I developed software, from accounting systems to iPhone apps.
+My name is David Ross. I am a software developer and bioinformatics scientist with a Master of Science degree in Bioinformatics and Computational Biomedicine from Oregon Health & Science University. I create tools for analyzing and visualizing biological datasets. I completed internships at [NanoString](https://www.nanostring.com/) and the [Earle A. Chiles Research Institute](https://oregon.providence.org/our-services/e/earle-a-chiles-research-institute/). Previously, I developed iPhone apps and enterprise software. View my full [resume](/resume).
 
 ![](/img/self.png)

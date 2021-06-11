@@ -4,4 +4,4 @@ title: Home
 
 # David Ross
 
-## _Graduate student in bioinformatics_
+## _Software developer and bioinformatics scientist_

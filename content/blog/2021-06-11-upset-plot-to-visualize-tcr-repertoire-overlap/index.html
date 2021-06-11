@@ -1,0 +1,21 @@
+---
+title: UpSet plot to visualize TCR repertoire overlap
+author: David Ross
+date: '2021-06-11'
+slug: upset-plot-to-visualize-tcr-repertoire-overlap
+categories: []
+tags:
+  - R
+  - dataviz
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>For our final project in data visualization class I explored something I’d thought about when I first came across various papers comparing T-cell receptor repertoire overlap. This challenge comes up in various contexts but for the visualization I create below it is to view the concordance between different methods of sequencing the TCR repertoire. The authors of the <a href="https://bmcbiotechnol.biomedcentral.com/articles/10.1186/s12896-017-0379-9">methods paper</a> use a series of Venn diagrams with four sets to visualize intersecting sets—where the same clonotypes were detected. For me Venn diagrams break down with greater than three sets.</p>
+<pre class="r"><code>library(grid)
+upset(dt, order.by = &quot;freq&quot;, set_size.show = FALSE)
+grid.text(&quot;Overlap between the most abundant TCR sequences\ndetected by each method&quot;,
+          x = 0.65, y=0.95, gp=gpar(fontsize=10))</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>The UpSet plot above is based on the data presented in Figure 3a of <a href="https://bmcbiotechnol.biomedcentral.com/articles/10.1186/s12896-017-0379-9">Rosati et al</a> as a Venn diagram. A slide deck for an in-class presentation on this visualization is available <a href="/UpSet-presentation.pdf">here</a></p>
