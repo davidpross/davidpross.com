@@ -1,0 +1,58 @@
+---
+title: Nathan's Hot Dog Eating Contest
+author: David Ross
+date: '2021-06-11'
+slug: nathan-s-hot-dog-eating-contest
+categories: []
+tags:
+  - R
+  - dataviz
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>One of the first labs for our data visualization class was to progressively improve a plot displaying the results of many years of a hot dog eating contest. It was enjoyable to take the time to understand the story you are telling and improve the plot through custom annotations.</p>
+<pre class="r"><code>breaks &lt;- seq(1981, 2017)
+labels &lt;- ifelse(breaks %in% seq(1981, 2017, 4), breaks, &quot;&quot;)
+text_labels &lt;- dt[, .(x = mean(year), y = 5, min = min(year), max = max(year)), by = affiliated]
+text_labels[, height := c(4, 8, 4)]
+levels(text_labels$affiliated) &lt;- c(&quot;MLE/IFOCE Current Member&quot;,
+                                    &quot;MLE/IFOCE\nFormer Member&quot;,
+                                    &quot;No MLE/IFOCE Affiliation&quot;)
+
+dt %&gt;% 
+  ggplot() +
+  geom_col(aes(x = year, y = num_eaten, fill = affiliated)) +
+  geom_col(data = dt_all[gender == &quot;female&quot;],
+           aes(x = year, y = num_eaten),
+           fill = &quot;coral&quot;) +
+  geom_tile(data = text_labels, aes(x = x, y = y,
+                                    width = max - min,
+                                    height = height),
+            fill = &quot;white&quot;) +
+  geom_text(data = text_labels, aes(x = x, y = y,
+                                    label = affiliated,
+                                    color = affiliated),
+            family = &quot;Georgia&quot;,
+            size = 3) +
+  geom_text(data = dt_all[gender == &quot;female&quot;],
+            aes(x = year, y = num_eaten),
+            label = &quot;♀&quot;,
+            vjust = 1.5) +
+  labs(x = &quot;Year&quot;, y = &quot;Hot Dogs and Buns Consumed&quot;, title = &quot;Nathan&#39;s Hot Dog Eating Contest Results, 1981-2017&quot;, caption = &quot;From 2011 on, separate Men&#39;s and Women&#39;s prizes have been awarded.\nAll female champions to date have been MLE/IFOCE-affiliated.&quot;) +
+  scale_fill_manual(values = c(&#39;#E9602B&#39;,&#39;#2277A0&#39;,&#39;#CCB683&#39;)) +
+  scale_color_manual(values = c(&#39;#E9602B&#39;,&#39;#2277A0&#39;,&#39;#CCB683&#39;)) +
+  scale_y_continuous(breaks = seq(0, 70, 10), expand = c(0,0)) +
+  scale_x_continuous(expand = c(0, 0), breaks = breaks, 
+                     labels = labels) +
+  coord_cartesian(xlim = c(1980, 2018),
+                  ylim = c(0, 80)) +
+  theme_classic() +
+  theme(axis.line.x = element_line(color = &quot;gray&quot;),
+        axis.line.y = element_blank(),
+        axis.ticks = element_line(color = &quot;gray&quot;),
+        text = element_text(family=&quot;Georgia&quot;),
+        plot.title = element_text(hjust = 0.5),
+        legend.position = &quot;none&quot;)</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
