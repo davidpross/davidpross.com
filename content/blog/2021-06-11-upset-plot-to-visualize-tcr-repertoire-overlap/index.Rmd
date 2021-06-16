@@ -22,4 +22,4 @@ grid.text("Overlap between the most abundant TCR sequences\ndetected by each met
           x = 0.65, y=0.95, gp=gpar(fontsize=10))
 ```
 
-The UpSet plot above is based on the data presented in Figure 3a of [Rosati et al](https://bmcbiotechnol.biomedcentral.com/articles/10.1186/s12896-017-0379-9) as a Venn diagram. A slide deck for an in-class presentation on this visualization is available [here](/UpSet-presentation.pdf)
+The UpSet plot above is based on the data presented in Figure 3a of [Rosati et al](https://bmcbiotechnol.biomedcentral.com/articles/10.1186/s12896-017-0379-9) as a Venn diagram. A slide deck for an in-class presentation on this visualization is available [here](/UpSet-presentation.pdf).
