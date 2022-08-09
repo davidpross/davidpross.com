@@ -39,7 +39,7 @@ Software developer and data scientist with a Master of Science degree in bioinfo
 
 ## Education
 
-### Master of Science — Oregon Health & Science University — Portland, Oregon — 2021 (Anticipated)
+### Master of Science — Oregon Health & Science University — Portland, Oregon — 2021
 
 - Major: Bioinformatics and computational biomedicine
 - Related coursework: Statistics, Machine Learning, Bioinformatics Algorithms, Computational Genetics, Data Visualization
