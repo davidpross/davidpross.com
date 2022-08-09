@@ -36,7 +36,7 @@ menu:
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "&copy; [David Ross](https://davidpross.com) 2021 | [LinkedIn](https://www.linkedin.com/in/daverossname/)"
+  footer: "&copy; [David Ross](https://davidpross.com) 2022 | [LinkedIn](https://www.linkedin.com/in/daverossname/)"
 
 markup:
   goldmark:

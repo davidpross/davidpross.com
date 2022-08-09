@@ -6,25 +6,29 @@ categories: []
 tags: []
 ---
 
-Software developer completing a master’s degree in bioinformatics and computational biomedicine with anticipated graduation in June 2021. Strong programming skills, motivated to contribute on a technical team partnering with biologists to leverage computational tools to advance biology and biomedical research.
+Software developer and data scientist with a Master of Science degree in bioinformatics and computational biomedicine from Oregon Health & Science University. Strong programming skills, motivated to contribute on a technical team partnering with biologists to leverage computational tools to advance biology and biomedical research.
 
 [Download PDF version of resume](/Ross-resume.pdf)
 
-Key Skills
---------------------------  ----------------------- ----------------------
-•	Software development      •	R                     •	Bash scripting
-•	Data visualization        •	Shiny                 •	Git version control
-•	Technical presentations	  •	Python                •	SQL
---------------------------  ----------------------  ----------------------
+| Key Skills |  |  |
+| --- | --- | --- |
+| Software development | R | Bash scripting |
+| Data visualization | Shiny | Git version control |
+| Technical presentations | Python | SQL |
 
 ## Relevant Experience
 
+### Data Scientist — NanoString Technologies Inc. — Seattle, Washington — 2021–Present
+- Created internal tool extending napari viewer for interactively visualizing images and data.
+- Method development and implementation for forthcoming [spatial multiomics platform](https://nanostring.com/products/cosmx-spatial-molecular-imager/spatial-single-cell-imaging/).
+- Contributed to figures and analysis for [accepted manuscript](https://www.biorxiv.org/content/10.1101/2021.11.03.467020v3) announcing technology.
+- Analysis of  pancreatic tissue data for medical researchers studying diabetes.
+
 ### Biostatistics Intern — NanoString Technologies Inc. — Seattle, Washington — 2021
 
--	Developed interactive visualization tool for exploratory data analysis of spatial transcriptomics data.
+-	Developed interactive visualization tool using R Shiny for exploring spatial transcriptomics data.
 -	Contributed to development of new data analysis pipeline for technology access program.
 -	Presented interactive visualization tool to senior leadership as well as current customers.
--	Selected to attend industry conference announcing new spatial biology technologies.
 
 ### Bioinformatics Scientist Intern — Providence Cancer Center — Portland, Oregon — 2020
 
@@ -69,3 +73,8 @@ Store for iPad.
 - C++ application server and Smalltalk GUI development.
 - Complex data manipulation with SQL on various relational database platforms.
 
+## Publications
+
+- He, S. et al. High-plex Multiomic Analysis in FFPE at Subcellular Level by Spatial Molecular Imaging. bioRxiv 2021.11.03.467020 (2022) [doi:10.1101/2021.11.03.467020](https://doi.org/10.1101/2021.11.03.467020).
+- Duhen, R. et al. PD-1 and ICOS co-expression identifies tumor-reactive CD4 T cells in human solid tumors. Journal of Clinical Investigation (2022) [doi:10.1172/JCI156821](https://doi.org/10.1172/JCI156821).
+- Rajamanickam, V. et al. Robust Antitumor Immunity in a Patient with Metastatic Colorectal Cancer Treated with Cytotoxic Regimens. Cancer Immunol Res (2021) [doi:10.1158/2326-6066.CIR-20-1024](https://doi.org/10.1158/2326-6066.CIR-20-1024).
