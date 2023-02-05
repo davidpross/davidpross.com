@@ -15,7 +15,7 @@ Software engineer and data scientist with a Master of Science degree in bioinfor
 | Software development | R | Docker |
 | Data visualization | Shiny | Git |
 | Technical presentations | Python | Dask |
-| Image analysis | Bash scripting | Numpy |
+| Image analysis | Bash scripting | NumPy |
 
 ## Work Experience
 
