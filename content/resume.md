@@ -21,9 +21,11 @@ Software engineer and data scientist with a Master of Science degree in bioinfor
 
 ### Data Scientist — NanoString Technologies Inc. — Seattle, Washington (Remote) — 2021–Present
 - Created internal tool for interactively visualizing images and data by writing a plugin Python module to the [napari](https://napari.org/) viewer, including tools for efficiently transforming large datasets using [Dask](https://www.dask.org/) and [Zarr](https://zarr.dev/).
-- Method development and implementation for a novel [spatial multiomics platform](https://nanostring.com/products/cosmx-spatial-molecular-imager/spatial-single-cell-imaging/) including applying statistical methods from spatial analysis and using [Rcpp](https://www.rcpp.org/) to optimize algorithms for large datasets.
+- Method development and implementation for a novel [spatial multiomics platform](https://nanostring.com/products/cosmx-spatial-molecular-imager/spatial-single-cell-imaging/) including applying statistical methods from spatial analysis and image analysis leveraging tools in the SciPy stack.
 - Contributed to figures—including [cover](https://www.nature.com/nbt/volumes/40/issues/12)—for [published manuscript](https://www.nature.com/articles/s41587-022-01483-z) announcing technology.
 - [Analysis](https://www.biorxiv.org/content/10.1101/2023.01.04.519955v1.abstract) of pancreatic tissue data for medical researchers studying diabetes.
+- Collaborated with external software contractors to develop commercial software.
+- Technical mentor to biologists and junior engineers.
 
 ### Biostatistics Intern — NanoString Technologies Inc. — Seattle, Washington (Remote) — 2021
 
@@ -33,7 +35,7 @@ Software engineer and data scientist with a Master of Science degree in bioinfor
 
 ### Bioinformatics Scientist Intern — Providence Cancer Center — Portland, Oregon — 2020
 
-- Performed bioinformatics analyses to support cancer immunology research.
+- Working closely with immunologist principal investigator, performed bioinformatics analyses to support cancer immunology research.
 - Used Seurat R package to analyze scRNA-seq data from tumor-infiltrating lymphocytes.
 - Created two interactive apps for data visualization and analysis of multiplex immunohistochemistry and TCR-seq data using R shiny package.
 - Created visualization for scientific journal article [published](https://pubmed.ncbi.nlm.nih.gov/33820811/) in _Cancer Immunology Research_.
