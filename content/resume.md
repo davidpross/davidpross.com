@@ -21,10 +21,12 @@ Software engineer and data scientist with a Master of Science degree in bioinfor
 
 ### Data Scientist — NanoString Technologies Inc. — Seattle, Washington (Remote) — 2021–Present
 - Created internal tool for interactively visualizing images and data by writing a plugin Python module to the [napari](https://napari.org/) viewer, including tools for efficiently transforming large datasets using [Dask](https://www.dask.org/) and [Zarr](https://zarr.dev/).
-- Method development and implementation for a novel [spatial multiomics platform](https://nanostring.com/products/cosmx-spatial-molecular-imager/spatial-single-cell-imaging/) including applying statistical methods from spatial analysis and image analysis leveraging tools in the SciPy stack.
-- Contributed to figures—including [cover](https://www.nature.com/nbt/volumes/40/issues/12)—for [published manuscript](https://www.nature.com/articles/s41587-022-01483-z) announcing technology.
+- Method development and implementation for a novel [spatial multiomics platform](https://nanostring.com/products/cosmx-spatial-molecular-imager/spatial-single-cell-imaging/) including applying statistical methods from spatial analysis as well as image analysis leveraging tools in the SciPy stack.
+- Contributed to figures—including [cover](https://www.nature.com/nbt/volumes/40/issues/12)—for [published manuscript](https://www.nature.com/articles/s41587-022-01483-z) on CosMx SMI technology.
+- Supporting workRlows for R&D scientists on AWS using Jenkins, Terraform, and Docker.
 - [Analysis](https://www.biorxiv.org/content/10.1101/2023.01.04.519955v1.abstract) of pancreatic tissue data for medical researchers studying diabetes.
 - Collaborated with external software contractors to develop commercial software.
+- Co-inventor on provisional patent application “Method and system of multi-modal sub-cellular segmentation”.
 - Technical mentor to biologists and junior engineers.
 
 ### Biostatistics Intern — NanoString Technologies Inc. — Seattle, Washington (Remote) — 2021
@@ -83,3 +85,4 @@ Store for iPad.
 - Rajamanickam, V. et al. Robust Antitumor Immunity in a Patient with Metastatic Colorectal Cancer Treated with Cytotoxic Regimens. Cancer Immunol Res (2021) doi:[10.1158/2326-6066.CIR-20-1024](https://doi.org/10.1158/2326-6066.CIR-20-1024).
 - Danaher, P. et al. Insitutype: likelihood-based cell typing for single cell spatial transcriptomics. (2022) doi:[10.1101/2022.10.19.512902](http://biorxiv.org/lookup/doi/10.1101/2022.10.19.512902).
 - Kolar, G. R., Ross, D., Killingbeck, E. E., Samson, W. K. & Yosten, G. L. C. Spatial molecular imaging of the human type 2 diabetic islet. (2023) doi:[10.1101/2023.01.04.519955](http://biorxiv.org/lookup/doi/10.1101/2023.01.04.519955).
+- Sofroniew, N. et al. napari: a multi-dimensional image viewer for Python. doi:10.5281/zenodo.3555620. (open-source contributor for napari 0.4.18)
