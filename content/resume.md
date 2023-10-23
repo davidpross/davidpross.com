@@ -19,7 +19,7 @@ Software engineer and data scientist with a Master of Science degree in bioinfor
 
 ## Work Experience
 
-### Data Scientist — NanoString Technologies Inc. — Seattle, Washington (Remote) — 2021–Present
+### Data Scientist — NanoString Technologies Inc. — Seattle, Washington (Remote) — 2021–2023
 - Created internal tool for interactively visualizing images and data by writing a plugin Python module to the [napari](https://napari.org/) viewer, including tools for efficiently transforming large datasets using [Dask](https://www.dask.org/) and [Zarr](https://zarr.dev/).
 - Method development and implementation for a novel [spatial multiomics platform](https://nanostring.com/products/cosmx-spatial-molecular-imager/spatial-single-cell-imaging/) including applying statistical methods from spatial analysis as well as image analysis leveraging tools in the SciPy stack.
 - Contributed to figures—including [cover](https://www.nature.com/nbt/volumes/40/issues/12)—for [published manuscript](https://www.nature.com/articles/s41587-022-01483-z) on CosMx SMI technology.
