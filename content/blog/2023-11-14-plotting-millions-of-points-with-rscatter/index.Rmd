@@ -1,0 +1,43 @@
+---
+title: Plotting millions of points with rscatter
+author: David Ross
+date: '2023-11-14'
+slug: plotting-millions-of-points-with-rscatter
+categories: []
+tags: ['R']
+---
+
+I recently released a new R package called [rscatter](https://github.com/davidpross/rscatter) that is an [htmlwidget](https://www.htmlwidgets.org/) wrapping the [regl-scatterplot](https://github.com/flekschas/regl-scatterplot) JavaScript library. So, what does that mean?!
+
+## Motivation
+
+You can create a scatterplot of the `wt` and `mpg` variables in the `mtcars` dataset (32 observations) using a lot of tools in R like base R `plot` and `geom_point` in ggplot2. However start pushing the number of points you want to plot into tens of thousands and more and things become quite sluggish. In addition you run into issues of overplotting without carefully choosing the point size and opacity. The [scattermore](https://exaexa.github.io/scattermore/) R package is helpful in these scenarios, especially if you want to generate an image file. However to get interactivity such as zooming or panning the plot you need to hook up the scattermoreplot expression with a Shiny widget.
+
+I came across the `regl-scatterplot` JavaScript library when needing to plot points representing cells from single cell experiments like scRNA-seq. Using WebGL (via regl) it can render a ton of points very quickly, check out the [demo page](https://flekschas.github.io/regl-scatterplot/). If you check out the demo page you will see it can do a lot more also. For now rscatter is focused on enabling the core functionality of creating scatterplots for large number of points.
+
+Frequently working with datasets in R, it was non-trivial to export the data and plot it using JavaScript then return to R for the next bit of analysis. Fritz Lekschas, the developer of regl-scatterplot, recently created a [Jupyter widget](https://jupyter-scatter.dev/) which is a Python wrapper to the JavaScript library allowing you to plot your data from Python using this package. Having developed several R Shiny apps I knew it was possible to create your own widgets and had always wanted to do so. Wrapping regl-scatterplot seemed like the perfect opportunity.
+
+## Example
+
+We are going to create an interactive version of Fig. 2a from [Cao et al 2019](https://shendure-web.gs.washington.edu/documents/cao_nature_2019.pdf). From the caption it is a "t-SNE visualization of 2,026,641 mouse embryo cells ..., coloured by cluster identity". For our purposes explaining t-SNE (or UMAP) is unnecessary but let's focus on 2,026,641. That's a lot of points!
+
+```{r main, out.width="100%"}
+library(rscatter)
+library(data.table)
+# get the data
+dt <- fread("https://shendure-web.gs.washington.edu/content/members/cao1025/public/mouse_embryo_atlas/cell_annotate.csv",
+      select = c("Main_Cluster", "Main_cluster_tsne_1", "Main_cluster_tsne_2"))
+# remove NAs
+dt <- dt[complete.cases(dt)]
+# change integer variable to factor
+dt[, Main_Cluster := as.factor(Main_Cluster)]
+
+# plot!
+rscatter("Main_cluster_tsne_1", "Main_cluster_tsne_2", size = 1, data = dt,
+         colorBy = "Main_Cluster")
+```
+
+If there's not a colorful plot of lots of points above you might need to switch from your phone to your laptop for viewing. You can learn more about rscatter from the [documentation](https://davidpross.github.io/rscatter/).
+
+Happy data exploring!
+
