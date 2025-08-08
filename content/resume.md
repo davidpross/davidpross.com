@@ -33,7 +33,7 @@ Bioinformatics software engineer and data scientist with an M.S. in Bioinformati
 - Method development and implementation for a novel [spatial multiomics platform](https://nanostring.com/products/cosmx-spatial-molecular-imager/spatial-single-cell-imaging/) leveraging tools in the R statistical ecosystem and SciPy stack
 - Contributed to figures—including [cover](https://www.nature.com/nbt/volumes/40/issues/12)—and analysis for [published manuscript](https://www.nature.com/articles/s41587-022-01483-z) on CosMx SMI technology
 - Built R&D workflows on AWS using Jenkins, Terraform, and Docker
-- Co-inventor on patent “Method and system of multi-modal sub-cellular segmentation”
+- Co-inventor, WO/2024/258979, “Method and system of multi-modal sub-cellular segmentation” (PCT published patent application, Dec 2024)
 - Technical mentor to biologists and junior engineers
 
 <span style="float: right; font-style: italic; font-weight: normal;">Feb 2021 – Jun 2021</span>
