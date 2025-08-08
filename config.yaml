@@ -29,3 +29,8 @@ menu:
 params:
   description: "A website built with Hugo."
   footer: "&copy; [David Ross](https://davidpross.com) 2025 | [![](/img/LI-In-Bug.png)](https://www.linkedin.com/in/daverossname/) [![](/img/github-mark.png)](https://github.com/davidpross)"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
