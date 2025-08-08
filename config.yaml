@@ -25,20 +25,7 @@ menu:
     - name: Resume
       url: /resume
       weight: 4
-#    - name: Categories
-#      url: /categories/
-#      weight: 5
-#    - name: Tags
-#      url: /tags/
-#      weight: 6
-#    - name: Subscribe
-#      url: /index.xml
 
 params:
-  description: "A website built through Hugo and blogdown."
-  footer: "&copy; [David Ross](https://davidpross.com) 2023 | [![](/img/LI-In-Bug.png)](https://www.linkedin.com/in/daverossname/) [![](/img/github-mark.png)](https://github.com/davidpross)"
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+  description: "A website built with Hugo."
+  footer: "&copy; [David Ross](https://davidpross.com) 2025 | [![](/img/LI-In-Bug.png)](https://www.linkedin.com/in/daverossname/) [![](/img/github-mark.png)](https://github.com/davidpross)"
