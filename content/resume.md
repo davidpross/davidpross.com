@@ -22,17 +22,16 @@ Bioinformatics software engineer and data scientist with an M.S. in Bioinformati
 <span style="float: right; font-style: italic; font-weight: normal;">Jan 2024 – Aug 2025</span>
 
 ### Senior Scientific Software Engineer — Scale Biosciences Inc. — Remote
-- Technical lead for single-cell RNA-seq and methylation data analysis workflows
-- Developed automated testing and release workflows for reproducible pipelines and improved developer productivity
-- Maintained and optimized AWS cloud infrastructure for scientific computing
+- Developed scalable tools and Nextflow pipelines for processing NGS reads from single-cell RNA-seq and methylation assays, improving data throughput and reproducibility
+- Provisioned and maintained AWS infrastructure for pipeline deployment, optimizing compute environments to meet dynamic R&D workloads
+- Enhanced pipeline performance to efficiently handle datasets with millions of cells and billions of reads per experiment
+- Implemented CI/CD and automated testing of pipelines via GitHub Actions, improving reliability and reducing integration time
 
 <span style="float: right; font-style: italic; font-weight: normal;">Aug 2021 – Oct 2023</span>
 
 ### Data Scientist — NanoString Technologies Inc. — Remote
 - Developed interactive visualization tool for large-scale image data using Python, napari, Dask, and Zarr
-- Method development and implementation for a novel [spatial multiomics platform](https://nanostring.com/products/cosmx-spatial-molecular-imager/spatial-single-cell-imaging/) leveraging tools in the R statistical ecosystem and SciPy stack
-- Contributed to figures—including [cover](https://www.nature.com/nbt/volumes/40/issues/12)—and analysis for [published manuscript](https://www.nature.com/articles/s41587-022-01483-z) on CosMx SMI technology
-- Built R&D workflows on AWS using Jenkins, Terraform, and Docker
+- Method development and implementation for a novel [spatial multiomics platform](https://www.nature.com/articles/s41587-022-01483-z) leveraging tools in the R statistical ecosystem and SciPy stack
 - Co-inventor, WO/2024/258979, “Method and system of multi-modal sub-cellular segmentation” (PCT published patent application, Dec 2024)
 - Technical mentor to biologists and junior engineers
 
